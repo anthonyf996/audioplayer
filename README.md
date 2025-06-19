@@ -37,7 +37,7 @@ effectively merging these files into the directory.
 
 Navigate into the "./webapps/site/db/" directory and run:
 
->```./webapps/site/db/create_database.sh```
+>```./create_database.sh```
 
 This will initialize an empty database in this directory.
 
@@ -56,7 +56,7 @@ artwork file with the path "./webapps/site/content/images/audio.png" or "./webap
 
 Now navigate into the "./webapps/site/db/" directory and run:
 
->```./webapps/site/db/populate_songs.sh```
+>```./populate_songs.sh```
 
 This script will import the audio files added from before into the database along with any corresponding 
 artwork with matching names (not including the file extension).
