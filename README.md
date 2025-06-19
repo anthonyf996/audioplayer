@@ -22,6 +22,8 @@ Version 9.0.106 was used for this project (apache-tomcat-9.0.106.tar.gz) though 
 
 The Sqlite JDBC library is also required. Version 3.50.1.0 was used for this project (sqlite-jdbc-3.50.1.0.jar).
 
+The scripts used require bash.
+
 <br>
 
 ## Setup
