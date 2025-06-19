@@ -1,6 +1,17 @@
 # audioplayer
 Audio Player Web Application
 
+My focus for designing the application was to make a simple interface for playing and listening to audio files using a web browser.
+
+Simply click the sound file rectangle to play or pause the file.
+
+Type into the search box to filter the results.
+
+That's it!
+
+All of the music played in this video was sourced from here: "https://pixabay.com/users/music_for_videos-26992513/"
+and all credit goes to the original artist.
+
 <br>
 
 ![screenshot](./screenshots/audioplayer_webapp.png)
