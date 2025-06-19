@@ -14,7 +14,10 @@ and all credit goes to the original artist.
 
 <br>
 
+Here is a screenshot of the app on a desktop:
 ![screenshot](./screenshots/audioplayer_webapp.png)
+
+Here is another screenshot of the app on a mobile device:
 ![screenshot](./screenshots/audioplayer_webapp_ios.png)
 
 Demo: https://www.youtube.com/playlist?list=PLDlLzU2EysQgOo0_zDpzyuDrJyb8KUrsj
