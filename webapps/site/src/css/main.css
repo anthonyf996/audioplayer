@@ -1,0 +1,92 @@
+body {
+	font-size: 16px;
+	color: white;
+	overflow-wrap: anywhere;
+	background-color: #000108;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	margin: 1rem;
+	width: 80rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#song-search {
+	width: 25rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+
+.cont-song-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.song-list-item {
+	margin: 0.25rem;
+	width: 36rem;
+	font-size: 1.2rem;
+	background-color: #222222aa;
+	border: 1px solid #444444;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.song-list-item[data-selected=true] {
+	border-color: #33ccff;
+}
+
+.song-list-item[data-hidden=true] {
+	display: none;
+}
+
+.song-list-item:hover:not([data-selected=true]) {
+	border-color: #ffffff;
+}
+
+.song-list-item-artwork {
+	width: 5rem;
+	height: 5rem;
+}
+
+.song-list-item-title {
+	margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	main {
+		width: 30rem;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.song-list-item {
+		width: 25rem;
+	}
+	#song-search {
+		width: 23rem;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	main {
+		width: 24rem;
+	}
+	.song-list-item {
+		width: 20rem;
+	}
+	#song-search {
+		width: 18rem;
+	}
+}

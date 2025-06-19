@@ -1,0 +1,5 @@
+BEGIN TRANSACTION;
+PRAGMA foreign_keys=ON;
+CREATE TABLE Songs(song_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT);
+CREATE TABLE SongAttributes(song_id INTEGER NOT NULL, attribute VARCHAR NOT NULL, attr_value VARCHAR NOT NULL, PRIMARY KEY (song_id, attribute, attr_value), FOREIGN KEY(song_id) REFERENCES Songs(song_id) ON DELETE CASCADE);
+COMMIT;

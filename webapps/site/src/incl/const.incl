@@ -1,0 +1,9 @@
+<%
+	String WEBSITE_NAME = "Audio Player";
+	String ICON_FAVICON = "../../content/icons/favicon.ico";
+	String SITE_HOME_DIR = "../../";
+	String PREPROC_LANG = "jdbc";
+	String DB_MANAGER = "sqlite";
+	String DB_DIR = "";
+	String DB = "database.db";
+%>
