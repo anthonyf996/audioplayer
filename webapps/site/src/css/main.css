@@ -35,6 +35,7 @@ main {
 .song-list-item {
 	margin: 0.25rem;
 	width: 36rem;
+	height: 6rem;
 	font-size: 1.2rem;
 	background-color: #222222aa;
 	border: 1px solid #444444;
