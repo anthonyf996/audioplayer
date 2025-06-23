@@ -83,7 +83,7 @@ At this point the database should be populated with all of the audio and artwork
 
 From the top-level of the Apache Tomcat project directory, run:
 
->```"./run.sh"```
+>```./run.sh```
 
 By default, the Apache Tomcat server should run on port 8080 on the localhost.
 
@@ -95,4 +95,4 @@ You can now use the web app!
 
 To shutdown the server, run:
 
->```"./stop.sh"```
+>```./stop.sh```
