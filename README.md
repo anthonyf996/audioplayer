@@ -87,7 +87,11 @@ From the top-level of the Apache Tomcat project directory, run:
 
 By default, the Apache Tomcat server should run on port 8080 on the localhost.
 
-Navigate to this port on the localhost (or the appropriate port if you have changed the default) and you can now use the web app!
+Using a browser, navigate to this port on the localhost (or the appropriate port if you have changed the default) with the following path:
+
+>```http://localhost:8080/site/src/jsp```
+
+You can now use the web app!
 
 To shutdown the server, run:
 
